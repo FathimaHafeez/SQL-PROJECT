@@ -101,10 +101,7 @@ SELECT *, DATEDIFF (end, Start) AS DiffDays FROM ( SELECT Appointmentid, Patient
 LAG( End,1,Null) OVER (PARTITION BY  Patient   ORDER BY Start, End) AS PreviousClaimEndDate     
  FROM Appointment1)lagselect;
 
-
 select *  from Appointment1;
-
-
 
 SELECT AppointmentID,Patient,doctorId,start,end FROM appointment1 ORDER BY start ASC;
 
