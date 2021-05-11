@@ -9,6 +9,19 @@
 * add the change details as per the format<Updater>-<date>-<Update Details>
 * pls use the same comment in the commit message
 */
+drop table Appointment;
+insert into Appointment values(85143,111111111,18,'2020-12-20 00:09','2020-12-20 01:08');
+insert into Appointment values(57913,111111112,19,'2021-05-18 01:04','2021-05-18 01:30');
+insert into Appointment values(68547,111111113,23,'2021-02-16 21:05','2021-02-16 21:58');
+insert into Appointment values(71015,111111114,35,'2020-08-17 04:35','2020-08-17 05:25');
+insert into Appointment values(48982,111111115,23,'2021-07-29 22:27','2021-07-29 23:08');
+insert into Appointment values(36562,111111111,18,'2020-07-28 22:38','2020-07-29 00:37');
+insert into Appointment values(47823,111111112,18,'2020-08-14 12:04','2020-08-14 13:30');
+insert into Appointment values(68896,111111113,23,'2020-11-05 09:12','2020-11-05 09:22');
+insert into Appointment values(50654,111111114,19,'2020-10-31 14:38','2020-10-31 15:16');
+insert into Appointment values(65147,111111115,18,'2020-12-31 12:22','2020-12-31 13:59');
+
+
 insert into Appointment values(85143,954296,68,'2020-12-20 00:09','2020-12-20 01:08');
 insert into Appointment values(57913,167493,44,'2021-05-18 01:04','2021-05-18 01:30');
 insert into Appointment values(68547,117843,38,'2021-02-16 21:05','2021-02-16 21:58');
